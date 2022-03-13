@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xarajatlar-hisoblagichi</title>
+</head>
+<body>
+
+
+  <script>
+    const name = prompt('Ismingizni kiriting: ');
+    const money = prompt('Mablag`ingizni kiriting(UZS): ');
+    let dollar = 9433.34;
+    let euro = 10354.03;
+    let minMoney = 250*dollar+500*dollar+120*euro;
+    if(money >= minMoney)
+      {
+        alert(`Oq yo'l, ${name}!`);
+      }
+    else
+      {
+        alert(`${name}, ozgina sabr qilish kerak bo’lar ekan.`);
+      }
+  </script>
+-
+</body>
+</html>
